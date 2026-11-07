@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classname</title>
+    <link rel="stylesheet" href="estilo_parciales.css">
+    <link rel="icon" type="imagen/png" href="icono.png">
+</head>
+<body class="contenido">
+    <a href="index.html">Regresar</a><br>
+    <p id="prueba"></p>
+    <p id="ejemplo"></p>
+    <p class="query">hola query</p>
+    <p class="prac"></p>
+    <p id="omar"></p>
+
+    <script>
+        let elemento= document.getElementById("prueba");
+        elemento.innerHTML = "Aprendiendo matodos de javascript"
+
+        var prueba= document.getElementById("ejemplo");
+        prueba.innerHTML ="Soy floja ya que no hago tarea"
+
+        document.querySelector(".query").style.backgroundColor = "pink";
+
+        let m=document.querySelector(".prac");
+        m.innerHTML ="si salio"
+
+        let n=document.querySelector("#omar");
+        n.innerHTML="HTML"
+    </script>
+
+</body>
+</html>

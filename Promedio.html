@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio</title>
+    <link rel="stylesheet" href="estilo_parciales.css">
+    <link rel="icon" type="imagen/png" href="icono.png">
+</head>
+<body class="contenido">
+    <a href="index.html">Regresar</a><br>
+    <h1>Promedio</h1>
+    <script>
+        let calf1=Number(prompt("Ingresa tu primera calificacion"));
+        let calf2=Number(prompt("Ingresa tu segundo calificacion"));
+        let calf3=Number(prompt("Ingresa tu tercera calificacion"));
+        promedio=(calf1+calf2+calf3)/3;
+        document.write("Tu promedio es: "+promedio+"<br>")
+        if(promedio>=6){
+            document.write("Felicidades! pasas");
+        }else{
+            document.write("Esfuerzate más!no pasas");
+        };
+    </script>
+</body>
+</html>
